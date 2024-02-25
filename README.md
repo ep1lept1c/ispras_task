@@ -15,7 +15,7 @@
 
 ### Создание PyTorch-модели
 
-Визуализация процесса создания и обучения PyTorch-модели находится в  NLPClassification/EtextClassifWord2VecLSTM.ipynb.
+[Визуализация процесса создания и обучения PyTorch-модели](NLPClassification/EtextClassifWord2VecLSTM.ipynb)
 
 Сама модель (обученная, лежит в той же папке в файле state_dict.pt)
 
