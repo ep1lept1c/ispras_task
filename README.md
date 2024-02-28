@@ -17,7 +17,7 @@
 
  - [Визуализация процесса создания и обучения PyTorch-модели](zeropoint/EtextClassificationFastTextLSTM.ipynb)
 
-Сама модель (обученная, лежит в той же [здесь](zeropoint/state_dict.pt))
+Сама модель (обученная, лежит [здесь](zeropoint/state_dict.pt))
 
 ### Модификация
  - [Визуализация процесса модификации PyTorch-модели]()
