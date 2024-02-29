@@ -21,7 +21,7 @@
 
 ### Модификация
  - [Визуализация процесса модификации PyTorch-модели](firstpoint/EtextAndOtherClassification.ipynb)
-(обученная модифицированная модель лежит [здесь](firstpoint/new_model.pt)
+(обученная модифицированная модель лежит [здесь](firstpoint/new_model.pt))
 ## Сборка и тестирование
 
 ### Telegram бот
