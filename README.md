@@ -20,7 +20,7 @@
 Сама модель, класс, описание [здесь](mylib/mymodel.py) (а уже обученная, лежит [здесь](zeropoint/saved_model.pt))
 
 ### Модификация
- - [Визуализация процесса модификации PyTorch-модели](firstpoint/EtextAndOtherClassification.ipynb)
+ - [Визуализация процесса модификации PyTorch-модели](firstpoint/newEtextAndOtherClassification.ipynb)
 (обученная модифицированная модель лежит [здесь](firstpoint/new_model.pt))
 ## Сборка и тестирование
 
