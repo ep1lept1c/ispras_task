@@ -16,7 +16,7 @@ RUN apt-get update && \
 COPY requirements.txt .
 
 RUN pip install -r requirements.txt
-ENV BOT_TOKEN 7193047786:AAG-CT8oPDxqTDKdjxpVDUade7lB33RxA50
+
 COPY . .
 
 
