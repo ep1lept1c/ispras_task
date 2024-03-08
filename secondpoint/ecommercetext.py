@@ -49,7 +49,7 @@ def text_remove_nonalph(text):
     return " ".join([word for word in tokenizer.tokenize(text) if word.isalpha()])
 
 def text_preprocess(text):
-    text = text_expand_contractions(text)
+    #text = text_expand_contractions(text)
     text = text_lower(text)
     text = text_remove_whitespaces(text)
     text = text_remove_punct(text)

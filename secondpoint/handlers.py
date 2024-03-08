@@ -48,8 +48,12 @@ async def add_description(msg: Message, state: FSMContext):
     important_list = importantdata.get('important', [])
     important_list.append(important_text)
     await state.update_data(important=important_list)
-    await msg.answer(text.added.format(classname=prediction), reply_markup=kb.askmenu)
-    await state.set_state(AddDescription.choosing_truefalse)
+    if prediction in text.available_categories:
+        await msg.answer(text.added.format(classname=prediction), reply_markup=kb.askmenu)
+        await state.set_state(AddDescription.choosing_truefalse)
+    else:
+        await msg.answer(text.error_appeared.format(errmsg=prediction), reply_markup=kb.iexit_kb)
+        await state.clear()
     
    
 

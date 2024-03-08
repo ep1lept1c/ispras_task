@@ -6,3 +6,4 @@ endofconv = "Cпасибо за использование бота!"
 classify_category = "К какому классу из нижеперечисленных это описание подходит?"
 available_categories = ["Household", "Books","Clothing & Accessories", "Electronics", "Other"]
 not_in_classes = "Я не знаю такого класса.\n \nПожалуйста, выберите один из вариантов из списка ниже:"
+error_appeared = "⛔️❗️ В работе бота возника ошибка ⛔️❗️\n {errmsg}"
