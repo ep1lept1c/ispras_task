@@ -1,7 +1,7 @@
 aiogram==3.4.1
 contractions==0.1.73
 matplotlib==3.8.2
-nltk==3.8.1
+nltk==3.9.1
 numpy==1.26.4
 pandas==2.2.0
 plotly==5.19.0
